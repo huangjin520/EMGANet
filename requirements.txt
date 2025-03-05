@@ -1,3 +1,4 @@
+#EMGANet
 dropblock==0.3.0
 einops==0.4.1
 matplotlib==3.8.2
