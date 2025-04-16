@@ -111,21 +111,17 @@ python eval.py
 
 ## 📜 Citation
 If you find this work or code is helpful in your research, please cite:
-
+### 📌 1. EMGANet (JBHI 2025)
+EMGANet (JBHI 2025)[IEEE Xplore🔗](https://ieeexplore.ieee.org/document/10906450) [Github🔗](https://github.com/huangjin520/EMGANet) [Project Website🔗](https://www.lei-whu.com)
 ```
 J. Huang et al., "EMGANet: Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation," in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2025.3546345.
 ```
-```@ARTICLE{10906450,
-author={Huang, Jin and Mao, Yazhao and Deng, Jingwen and Ye, Zhaoyi and Zhang, Yimin and Zhang, Jingwen and Dong, Lan and Shen, Hui and Hou, Jinxuan and Xu, Yu and Li, Xiaoxiao and Liu, Sheng and Wang, Du and Sun, Shengrong and Mei, Liye and Lei, Cheng},
-journal={IEEE Journal of Biomedical and Health Informatics}, 
-title={EMGANet: Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation}, 
-year={2025},
-volume={},
-number={},
-pages={1-11},
-keywords={Image segmentation;Feature extraction;Image edge detection;Ultrasonic imaging;Accuracy;Hospitals;Breast cancer;Bioinformatics;Transformers;Medical diagnostic imaging;Breast cancer segmentation;Edge-aware mechanism;Group-mix attention;Multi-scale backbone network;Ultrasound image segmentation},
-doi={10.1109/JBHI.2025.3546345}}
-  ```
+
+### 📌 2. DSATNet (Medical Physics 2025)
+DSATNet (MP 2025)[IEEE Xplore🔗](https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.17751) [Github🔗](https://github.com/Skylanding/DSATNet) [Project Website🔗](https://www.lei-whu.com)
+```
+Li Y, Huang J, Zhang Y, et al. Dual branch segment anything model‐transformer fusion network for accurate breast ultrasound image segmentation[J]. Medical Physics.
+```
 ## 📬 Contact
 For any questions or collaborations, please contact [Jin Huang](mailto:jinhuang@whu.edu.cn), [Yazhao Mao](mailto:maoyazhao@whu.edu.cn), [Zhaoyi Ye](mailto:yezhaoyi@whu.edu.cn) or open an issue on GitHub.
 
