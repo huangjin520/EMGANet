@@ -118,7 +118,7 @@ J. Huang et al., "EMGANet: Edge-Aware Multi-Scale Group-Mix Attention Network fo
 ```
 
 ### 📌 2. DSATNet (Medical Physics 2025)
-DSATNet (MP 2025)[IEEE Xplore🔗](https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.17751) [Github🔗](https://github.com/Skylanding/DSATNet) [Project Website🔗](https://www.lei-whu.com)
+DSATNet (MP 2025)[Wiley 🔗](https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.17751) [Github🔗](https://github.com/Skylanding/DSATNet) [Project Website🔗](https://www.lei-whu.com)
 ```
 Li Y, Huang J, Zhang Y, et al. Dual branch segment anything model‐transformer fusion network for accurate breast ultrasound image segmentation[J]. Medical Physics.
 ```
