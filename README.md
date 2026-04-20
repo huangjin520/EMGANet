@@ -40,6 +40,8 @@ We have evaluated segmentation performance on two public datasets, [Dataset-B](h
 - Validation: 15%
 - Test: 15%
 
+```git clone https://huggingface.co/datasets/huangjin520/busi-whu-seg ```
+#### 为了方便下载，文件名标注良恶性+数据划分
 
 
 ### Training
