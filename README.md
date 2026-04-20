@@ -33,7 +33,7 @@ python -m pip install -r requirements.txt --user -q
 
 All experiments use the PyTorch 1.8 framework in a Python 3.10 environment. Other versions of pytorch and Python are not fully tested.
 ### 📂 Data preparation
-We have evaluated segmentation performance on two public datasets, [Dataset-B](https://ieeexplore.ieee.org/document/8003418) and [BUSI](https://www.sciencedirect.com/science/article/pii/S2352340919312181), and one private dataset, [BUSI-WHU](https://data.mendeley.com/datasets/k6cpmwybk3/3). We have provided the BUSI-WHU dataset [BUSI-WHU](https://huggingface.co/datasets/huangjin520/busi-whu-seg) in the directory.  
+We have evaluated segmentation performance on two public datasets, [Dataset-B](https://ieeexplore.ieee.org/document/8003418) and [BUSI](https://www.sciencedirect.com/science/article/pii/S2352340919312181), and one private dataset, BUSI-WHU. We have provided the BUSI-WHU dataset [BUSI-WHU](https://huggingface.co/datasets/huangjin520/busi-whu-seg) in the directory.  
 
 #### 🔢 Splits in a **class-balanced manner** (benign / malignant)
 - Train: 70%
