@@ -33,40 +33,14 @@ python -m pip install -r requirements.txt --user -q
 
 All experiments use the PyTorch 1.8 framework in a Python 3.10 environment. Other versions of pytorch and Python are not fully tested.
 ### 📂 Data preparation
-We have evaluated segmentation performance on two public datasets, [Dataset-B](https://ieeexplore.ieee.org/document/8003418) and [BUSI](https://www.sciencedirect.com/science/article/pii/S2352340919312181), and one private dataset, [BUSI-WHU](https://data.mendeley.com/datasets/k6cpmwybk3/3). We have provided the BUSI-WHU dataset [BUSI-WHU](https://data.mendeley.com/datasets/k6cpmwybk3/3) and [Information](https://github.com/huangjin520/EMGANet/blob/main/Dataset/BUSI_WHU/BUSI-WHU_information.xlsx) in the directory. Please prepare the data as following:
+We have evaluated segmentation performance on two public datasets, [Dataset-B](https://ieeexplore.ieee.org/document/8003418) and [BUSI](https://www.sciencedirect.com/science/article/pii/S2352340919312181), and one private dataset, [BUSI-WHU](https://data.mendeley.com/datasets/k6cpmwybk3/3). We have provided the BUSI-WHU dataset [BUSI-WHU](https://data.mendeley.com/datasets/k6cpmwybk3/3) and [Information](https://github.com/huangjin520/EMGANet/blob/main/Dataset/BUSI_WHU/BUSI-WHU_information.xlsx) in the directory.  
 
-``` sh
-|-DATASET
-  |-BUSI-WHU
-    |-train
-    | |-img
-    | | |-img1.bmp
-    | | |-img2.bmp
-    | | |-...
-    | |-mask
-    | | |-mask1.bmp
-    | | |-mask2.bmp
-    | | |-...
-    |-val
-    | |-img
-    | | |-img1.bmp
-    | | |-img2.bmp
-    | | |-...
-    | |-mask
-    | | |-mask1.bmp
-    | | |-mask2.bmp
-    | | |-...
-    |-test
-    | |-img
-    | | |-img1.bmp
-    | | |-img2.bmp
-    | | |-...
-    | |-mask
-    | | |-mask1.bmp
-    | | |-mask2.bmp
-    | | |-...
-      
-```
+#### 🔢 Splits in a **class-balanced manner** (benign / malignant)
+- Train: 70%
+- Validation: 15%
+- Test: 15%
+
+
 
 ### Training
 The EMGANet model can be trained on BUSI-WHU training set using the following: 
