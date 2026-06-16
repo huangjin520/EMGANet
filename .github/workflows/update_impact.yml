@@ -1,5 +1,8 @@
 name: Update Impact Card
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -11,22 +14,24 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - run: pip install requests
-
-      - run: |
-          python .github/scripts/generate_impact_card.py
+      - run: python .github/scripts/generate_impact_card.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-          git add docs/assets/impact_card.svg
+          git add img/impact_card.svg
 
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "Update impact card"
