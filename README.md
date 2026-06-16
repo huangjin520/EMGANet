@@ -1,21 +1,20 @@
+**Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation** 
 <h1 align="center">
   EMGANet
 </h1>
-
 <p align="center">
   <img src="img/fig_EGMA.png" alt="EMGANet" width="80%">
   <br>
   <rm>Figure 1: EMGANet Architecture</rm>
 </p>
-<p align="center">
-  <img src="img/impact_card.svg" width="700">
-</p>
-**📖Title：** Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation
 
+**📖Title：** Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation
 **👨‍💻Author：** Huang, Jin and Mao, Yazhao and Deng, Jingwen and Ye, Zhaoyi and Zhang, Yimin and Zhang, Jingwen and Dong, Lan and Shen, Hui and Hou, Jinxuan and Xu, Yu and Li, Xiaoxiao and Liu, Sheng and Wang, Du and Sun, Shengrong and Mei, Liye and Lei, Cheng
 
 **Link：**  [IEEE Xplore🔗](https://ieeexplore.ieee.org/document/10906450) [Project Website🔗](https://www.lei-whu.com)
-
+<p align="center">
+  <img src="img/impact_card.svg" width="700">
+</p>
 **📜Abstract:** <p align="justify">Breast cancer is one of the most prevalent diseases for women worldwide. Early and accurate ultrasound image segmentation plays a crucial role in reducing mortality. Although deep learning methods have demonstrated remarkable segmentation potential, they still struggle with challenges in ultrasound images, including blurred boundaries and speckle noise. To generate accurate ultrasound image segmentation, this paper proposes the Edge-Aware Multi-Scale Group-Mix Attention Network (EMGANet), which generates accurate segmentation by integrating deep and edge features. The Multi-Scale Group Mix Attention block effectively aggregates both sparse global and local features, ensuring the extraction of valuable information. The subsequent Edge Feature Enhancement block then focuses on cancer boundaries, enhancing the segmentation accuracy. Therefore, EMGANet effectively tackles unclear boundaries and noise in ultrasound images. We conduct experiments on two public datasets (Dataset- B, BUSI) and one private dataset which contains 927 samples from Renmin Hospital of Wuhan University (BUSIWHU). EMGANet demonstrates superior segmentation performance, achieving an overall accuracy (OA) of 98.56%, a mean IoU (mIoU) of 90.32%, and an ASSD of 6.1 pixels on the BUSI-WHU dataset. Additionally, EMGANet performs well on two public datasets, with a mIoU of 88.2% and an ASSD of 9.2 pixels on Dataset-B, and a mIoU of 81.37% and an ASSD of 18.27 pixels on the BUSI dataset. EMGANet achieves a state-of-the-art segmentation performance of about 2% in mIoU across three datasets. In summary, the proposed EMGANet significantly improves breast cancer segmentation through Edge-Aware and Group-Mix Attention mechanisms, showing great potential for clinical applications.</p>
 
 
