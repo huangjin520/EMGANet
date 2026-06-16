@@ -7,7 +7,7 @@
   <br>
   <rm>Figure 1: EMGANet Architecture</rm>
 </p>
-
+![OpenAlex Citations](https://img.shields.io/badge/dynamic/json?url=https://api.openalex.org/works/https://doi.org/10.1109/JBHI.2025.3546345&query=$.cited_by_count&label=Citations&color=brightgreen)
 **📖Title：** Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation
 
 **👨‍💻Author：** Huang, Jin and Mao, Yazhao and Deng, Jingwen and Ye, Zhaoyi and Zhang, Yimin and Zhang, Jingwen and Dong, Lan and Shen, Hui and Hou, Jinxuan and Xu, Yu and Li, Xiaoxiao and Liu, Sheng and Wang, Du and Sun, Shengrong and Mei, Liye and Lei, Cheng
