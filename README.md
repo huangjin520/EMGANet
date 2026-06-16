@@ -1,7 +1,6 @@
-**Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentation** 
-<h1 align="center">
-  EMGANet
-</h1>
+<h4 align="center">
+  Edge-Aware Multi-Scale Group-Mix Attention Network for Breast Cancer Ultrasound Image Segmentationc
+</h4>
 <p align="center">
   <img src="img/fig_EGMA.png" alt="EMGANet" width="80%">
   <br>
