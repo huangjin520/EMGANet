@@ -1,0 +1,38 @@
+
+<svg width="700" height="220"
+     xmlns="http://www.w3.org/2000/svg">
+
+<rect width="700"
+      height="220"
+      rx="15"
+      fill="#f6f8fa"/>
+
+<text x="30" y="45"
+      font-size="28"
+      font-family="Arial"
+      font-weight="bold">
+EMGANet Impact
+</text>
+
+<text x="30" y="90" font-size="20">
+Total Citations
+</text>
+<text x="520" y="90" font-size="20">
+26
+</text>
+
+<text x="30" y="130" font-size="20">
+FWCI
+</text>
+<text x="520" y="130" font-size="20">
+45.73
+</text>
+
+<text x="30" y="170" font-size="20">
+Top 1% Paper
+</text>
+<text x="520" y="170" font-size="20">
+Yes
+</text>
+
+</svg>
