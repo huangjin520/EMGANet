@@ -78,13 +78,6 @@ svg = f"""<svg width="700" height="220" viewBox="0 0 700 220" xmlns="http://www.
   <path d="M8 0.5 H692 A7.5 7.5 0 0 1 699.5 8 V8.5 H0.5 V8 A7.5 7.5 0 0 1 8 0.5 Z" fill="#0969da" />
   <line x1="0.5" y1="46" x2="699.5" y2="46" stroke="#d8dee4" />
 
-  <text x="24" y="29" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
-    EMGANet Impact
-  </text>
-  <text x="24" y="66" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="12">
-    OpenAlex + GitHub metrics
-  </text>
-
   <g font-family="Segoe UI, Arial, sans-serif" font-size="15">
     <circle cx="30" cy="88" r="6" fill="#0969da" fill-opacity="0.12" stroke="#0969da" />
     <text x="48" y="93" fill="#24292f" font-weight="600">Total Citations:</text>
@@ -107,13 +100,16 @@ svg = f"""<svg width="700" height="220" viewBox="0 0 700 220" xmlns="http://www.
     <text x="488" y="200" fill="#8250df" font-weight="700" text-anchor="end">{commits_text}</text>
   </g>
 
-  <circle cx="604" cy="126" r="48" fill="#f6f8fa" stroke="#d0d7de" />
-  <circle cx="604" cy="126" r="35" fill="#ffffff" stroke="#0969da" stroke-width="3" />
-  <text x="604" y="122" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">
-    EM
+  <circle cx="604" cy="126" r="44" fill="#f6f8fa" stroke="#d0d7de" />
+  <circle cx="604" cy="126" r="32" fill="#ffffff" stroke="#0969da" stroke-width="3" />
+  <text x="604" y="122" fill="#0969da" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">
+    EMGANet
   </text>
-  <text x="604" y="141" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+  <text x="604" y="139" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">
     IMPACT
+  </text>
+  <text x="604" y="187" fill="#57606a" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+    OpenAlex + GitHub
   </text>
 
   <rect x="548" y="27" width="112" height="24" rx="12" fill="#ddf4ff" stroke="#54aeff" />
