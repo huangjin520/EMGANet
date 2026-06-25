@@ -7,23 +7,23 @@
   <g font-family="Segoe UI, Arial, sans-serif" font-size="15">
     <circle cx="30" cy="88" r="6" fill="#0969da" fill-opacity="0.12" stroke="#0969da" />
     <text x="48" y="93" fill="#24292f" font-weight="600">Total Citations:</text>
-    <text x="488" y="93" fill="#24292f" font-weight="700" text-anchor="end">27</text>
+    <text x="488" y="93" fill="#24292f" font-weight="700" text-anchor="end">28</text>
 
     <line x1="24" y1="107" x2="520" y2="107" stroke="#d8dee4" />
     <circle cx="30" cy="124" r="6" fill="#1f883d" fill-opacity="0.12" stroke="#1f883d" />
     <text x="48" y="129" fill="#24292f" font-weight="600">FWCI:</text>
-    <text x="488" y="129" fill="#1f883d" font-weight="700" text-anchor="end">45.92</text>
+    <text x="488" y="129" fill="#1f883d" font-weight="700" text-anchor="end">46.60</text>
 
     <line x1="24" y1="143" x2="520" y2="143" stroke="#d8dee4" />
     <path d="M30 151.5 L32.1 156.1 L37 156.7 L33.4 160 L34.4 164.8 L30 162.3 L25.6 164.8 L26.6 160 L23 156.7 L27.9 156.1 Z" fill="#0969da" fill-opacity="0.14" stroke="#0969da" stroke-linejoin="round" />
     <text x="48" y="165" fill="#24292f" font-weight="600">Total Stars Earned:</text>
-    <text x="488" y="165" fill="#0969da" font-weight="700" text-anchor="end">28</text>
+    <text x="488" y="165" fill="#0969da" font-weight="700" text-anchor="end">29</text>
 
     <line x1="24" y1="179" x2="520" y2="179" stroke="#d8dee4" />
     <circle cx="30" cy="195" r="5.5" fill="#8250df" fill-opacity="0.12" stroke="#8250df" />
     <path d="M41 195 H30" stroke="#8250df" stroke-width="2" stroke-linecap="round" />
     <text x="48" y="200" fill="#24292f" font-weight="600">Total Commits:</text>
-    <text x="488" y="200" fill="#8250df" font-weight="700" text-anchor="end">32</text>
+    <text x="488" y="200" fill="#8250df" font-weight="700" text-anchor="end">33</text>
   </g>
 
   <circle cx="604" cy="126" r="44" fill="#f6f8fa" stroke="#d0d7de" />
